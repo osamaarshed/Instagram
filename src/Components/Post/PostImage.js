@@ -1,11 +1,10 @@
 import React from 'react';
-import khan from './../../Images/post.jpg';
+import khan from './../../Images/insta-post1.jpg';
 
 function PostImage() {
   return (
     <div>
       <img src={khan} className='w-100' alt='khan' />
-    {/* oasmaosd */}
     </div>
   );
 }
