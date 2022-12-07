@@ -5,6 +5,7 @@ function PostImage() {
   return (
     <div>
       <img src={khan} className='w-100' alt='khan' />
+    {/* oasmaosd */}
     </div>
   );
 }
