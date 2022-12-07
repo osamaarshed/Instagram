@@ -1,10 +1,9 @@
-import React from 'react';
-import khan from './../../Images/insta-post1.jpg';
+import React from "react";
 
-function PostImage() {
+function PostImage(props) {
   return (
     <div>
-      <img src={khan} className='w-100' alt='khan' />
+      <img src={props.postImage} className="w-100" alt="khan" />
     </div>
   );
 }
