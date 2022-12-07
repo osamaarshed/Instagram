@@ -1,7 +1,13 @@
 import React from "react";
+import Nav from "../Nav/Nav";
 
 function Messages() {
-  return <div>Messages</div>;
+  return (
+    <>
+      <Nav />
+      <h1>Messages</h1>
+    </>
+  );
 }
 
 export default Messages;
