@@ -14,15 +14,19 @@ function Post() {
     <div>
       {/* <PostProps.Provider> */}
       {PostData.map((users, index) => (
-        <PostNav
-          key={index}
-          profileImage={imrankhan}
-          username={users.username}
-          description={users.description}
-        />
+        <>
+          <PostNav
+            key={index}
+            // profileImage={users.image}
+            profileImage={imrankhan}
+            username={users.username}
+            description={users.description}
+          />
+          <PostImage postImage={khan} />
+          <BelowPost />
+        </>
       ))}
-      <PostImage postImage={khan} />
-      <BelowPost />
+
       {/* </PostProps.Provider> */}
     </div>
   );

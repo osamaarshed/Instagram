@@ -2,6 +2,7 @@ import React from "react";
 import "./../../Css/PostNav.css";
 import { MdVerified } from "react-icons/md";
 import { NavLink } from "react-router-dom";
+
 function PostNav(props) {
   return (
     <div className="imrankhan-container d-flex align-items-center text-light">
