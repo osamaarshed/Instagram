@@ -11,7 +11,7 @@ function PostNav(props) {
           <NavLink to="/profile">
             <img
               src={props.profileImage}
-              className="imrankhan "
+              className="imrankhan"
               alt="imrankhan"
             />
           </NavLink>

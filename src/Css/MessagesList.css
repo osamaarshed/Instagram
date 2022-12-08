@@ -1,0 +1,9 @@
+.messages-list-image {
+  border-radius: 50%;
+  /* width: 20%; */
+  height: 70px;
+  border: 2px solid orangered;
+}
+.content-pos {
+  margin-left: -10%;
+}
