@@ -5,6 +5,7 @@ import PostImage from "./PostImage";
 import BelowPost from "./BelowPost";
 import imrankhan from "./../../Images/imrankhan.jpg";
 import khan from "./../../Images/insta-post1.jpg";
+import PostData from "./../../Json/PostData.json";
 
 // const PostProps = createContext();
 
@@ -12,11 +13,14 @@ function Post() {
   return (
     <div>
       {/* <PostProps.Provider> */}
-      <PostNav
-        profileImage={imrankhan}
-        username="imrankhan.pti"
-        description="imrankhan.pti . Original audio"
-      />
+      {PostData.map((users, index) => (
+        <PostNav
+          key={index}
+          profileImage={imrankhan}
+          username={users.username}
+          description={users.description}
+        />
+      ))}
       <PostImage postImage={khan} />
       <BelowPost />
       {/* </PostProps.Provider> */}
