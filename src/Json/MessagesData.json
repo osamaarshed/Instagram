@@ -3,13 +3,13 @@
     "id": 1,
     "username": "imrankhan.pti",
     "message": "Can you send me a picture of yours adsnjksabdnksjadnas bdjksadbnaksjd dajksdnsadasd jskad",
-    "image": "./../../Images/imrankhan.jpg"
+    "image": "../Images/imrankhan.jpg"
   },
   {
     "id": 2,
     "username": "osamaarshed",
     "message": "Video chat ended",
-    "image": "./../../Images/imrankhan.jpg"
+    "image": "../Images/imrankhan.jpg"
   },
   {
     "id": 3,

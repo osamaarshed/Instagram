@@ -6,12 +6,13 @@ import { NavLink } from "react-router-dom";
 function PostNav(props) {
   return (
     <div className="imrankhan-container d-flex align-items-center text-light">
+      {console.log(props, "props")}
       <div className="row w-100 mx-1 my-2">
-        <div className="col-lg-1">
+        <div className="col-lg-1 postnav-image">
           <NavLink to="/profile">
             <img
               src={props.profileImage}
-              className="imrankhan"
+              className="w-100 imrankhan"
               alt="imrankhan"
             />
           </NavLink>

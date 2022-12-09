@@ -3,8 +3,7 @@ import React from "react";
 import PostNav from "./PostNav";
 import PostImage from "./PostImage";
 import BelowPost from "./BelowPost";
-import imrankhan from "./../../Images/imrankhan.jpg";
-import khan from "./../../Images/insta-post1.jpg";
+// import khan from "./../../Images/insta-post1.jpg";
 import PostData from "./../../Json/PostData.json";
 
 // const PostProps = createContext();
@@ -17,12 +16,12 @@ function Post() {
         <>
           <PostNav
             key={index}
-            // profileImage={users.image}
-            profileImage={imrankhan}
+            profileImage={users.image}
+            // profileImage={imrankhan}
             username={users.username}
             description={users.description}
           />
-          <PostImage postImage={khan} />
+          <PostImage postImage={users.postimage} />
           <BelowPost />
         </>
       ))}

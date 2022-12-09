@@ -31,8 +31,8 @@ function MessagesNav() {
             <input
               type="text"
               className="form-control bg-dark text-white"
-              placeholder="Username"
-              aria-label="Username"
+              placeholder="Search"
+              aria-label="Search"
               aria-describedby="basic-addon1"
             />
           </div>
