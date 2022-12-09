@@ -4,11 +4,11 @@ function MessagesList(props) {
   return (
     <>
       <div className="container-fluid text-white ">
-        <div className="row gx-0">
-          <div className="col-3 d-flex justify-content-start">
+        <div className="row gx-0 align-items-center">
+          <div className="col-3 d-flex justify-content-start messages-list-image">
             <img
               src={props.image}
-              className="messages-list-image"
+              className="messages-list-image1 img-fluid"
               alt="first-one"
             />
           </div>

@@ -2,7 +2,6 @@ import React from "react";
 import Nav from "../Nav/Nav";
 import MessagesList from "./MessagesList";
 import MessagesNav from "./MessagesNav";
-import imrankhan from "./../../Images/imrankhan.jpg";
 import MessagesData from "./../../Json/MessagesData.json";
 
 function Messages() {
@@ -13,7 +12,8 @@ function Messages() {
       {MessagesData.map((data, index) => (
         <>
           <MessagesList
-            image={imrankhan}
+            key={index}
+            image={data.image}
             username={data.username}
             message={data.message}
           />
